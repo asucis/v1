@@ -1,73 +1,80 @@
-html {
-    
-}
-
 body {
-    
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: #666;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-}
-
-.active {
-    background-color: #4CAF50;
-}
-
-/* sections */
-
-.odd-section {
-    padding: 50px 0;
-    background-color: #f8f8f8;
-}
-
-.even-section {
-    padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
-}
-
-.section-heading {
-    margin-bottom: 30px;
-}
-
-.section-heading-spacer {
-    float: left;
-    width: 200px;
-    border-top: 3px solid #e7e7e7;
-}
-
-.featurette-divider {
-    margin: 30px 0;
-}
-
-.featurette-heading {
+h2.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     font-size: 3em;
-    padding-left: 0.2em;
+    text-align: left;
 }
 
-.lead {
-    padding-left: 0.5em;
+section {
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+footer {
+    background-color: darkred;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    margin-top: 2em;
+    color: white;
+}
+
+footer a:link, footer a:visited {
+    color: white;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer a:hover, footer a:active {
+    background-color:gray;
+}
+
+#social a:link, #social a:visited {
+    background-color: indianred;
+    color: white;
+    padding: 8px 15px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+#social a:hover, #social a:active {
+    background-color: red;
+}
+
+/* Responsive iFrame */
+
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#wechat {
+    background-color:forestgreen;
+}
+
+#qr {
+    margin: 5% 25% 1%;
+    width: 50%;
+    border: 3px solid #7bb32e;
+    padding: 10px;
+    max-width: 600px;
 }
