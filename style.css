@@ -3,119 +3,81 @@ body {
     font-size: 18px;
 }
 
-h2.title {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 2em;
-    text-align: left;
-}
-
-section {
-    margin-top: 2em;
-    margin-bottom: 4em;
-}
-
-img.profile {
-    display: block;
-    margin: auto;
-}
-
-p.partner-title {
-    font-weight: 500;
-    font-size: 0.5em;
-}
-
-footer {
-    background-color: darkred;
-    padding-top: 2em;
-    padding-bottom: 1em;
-    margin-top: 2em;
-    color: white;
-}
-
-footer a:link, footer a:visited {
-    color: white;
-    text-align: center; 
+.navbar a.navbar-brand:hover {
+    color: #00A3E0 !important;
     text-decoration: none;
-    display: inline-block;
 }
 
-footer a:hover, footer a:active {
-    background-color:gray;
-}
-
-#social a:link, #social a:visited {
-    background-color: indianred;
-    color: white;
-    padding: 8px 15px;
-    text-align: center; 
+a:link {
+    color: black;
     text-decoration: none;
-    display: inline-block;
 }
 
-#social a:hover, #social a:active {
-    background-color: red;
+a:visited {
+    color: black;
+    text-decoration: none;
 }
 
-/* Responsive iFrame */
+a:hover {
+    color: gray;
+    text-decoration: none;
+}
 
-.responsive-iframe-container {
+a:active {
+    color: gray;
+    text-decoration: none;
+}
+
+.jumbotron {
+    border-radius: 0px;
+}
+
+.footer-copyright {
+    padding: 10px 10px;
+    color:gray;
+}
+
+.footer-copyright a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+.footer-copyright a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+.footer-copyright a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+.footer-copyright a:active {
+    color: gray;
+    text-decoration: none;
+}
+
+/* Container holding the image and the text */
+.container-box {
     position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
+    text-align: center;
+    color: white;
 }
 
-.responsive-iframe-container iframe,
-.vresponsive-iframe-container object,
-.vresponsive-iframe-container embed {
+/* Top left text */
+.top-left {
+    font-weight: 700;
+    
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 8px;
+    left: 16px;
+    color: black;
 }
 
-#wechat {
-    background-color:forestgreen;
+.top-left h1 {
+    font-size: 4em !important;
 }
 
-#qr {
-    margin: 5% 25% 1%;
-    width: 50%;
-    border: 3px solid #7bb32e;
-    padding: 10px;
-    max-width: 600px;
-}
-
-#custom-handle {
-    width: 5em;
-    height: 1.6em;
-    top: 50%;
-    margin-top: -.8em;
-    text-align: center;
-    line-height: 1.6em;
-}
-article {
-    padding: 1em;
-    overflow: hidden;
-    border-style: double;
-}
-#contents {
-    margin-left: 1%;
-    margin-right: 1%;
-    overflow: hidden;
-}
-#tabs {
-    height: 500px;
-    overflow: hidden;
-}
-.disabledbutton {
-    pointer-events: none;
-    opacity: 0.4;
-}
-table {
-    width: 100%;
-    text-align: center;
+img {
+ filter: blur(1px) grayscale(15%);
 }
