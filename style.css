@@ -1,6 +1,50 @@
-body {
+body,
+html {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+    height: 100%;
+    margin: 0;
+}
+
+.logo-hero {
+    width: 100%;
+}
+
+hr {
+  max-width: 100px;
+  margin: auto;
+  border-width: 0.25em;
+  border-color: rgba(34, 34, 34, 0.1); 
+}
+
+.hero-bg {
+    position: relative;
+    opacity: 0.75;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("assets/Duy%20Nguyen%20-%202W3A2805.JPG");
+    height: 80%;
+}
+
+.about-bg {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("assets/Duy%20Nguyen%20-%202W3A2227.JPG");
+    height: 30%;
+}
+
+.executive-bg {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("assets/20170818_181450.jpg");
+    height: 30%;
 }
 
 .navbar a.navbar-brand:hover {
@@ -8,63 +52,61 @@ body {
     text-decoration: none;
 }
 
-a:link {
+.social a:link{
     color: black;
     text-decoration: none;
 }
 
-a:visited {
+.social a:visited {
     color: black;
     text-decoration: none;
 }
 
-a:hover {
+.social a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.social a:active {
     color: gray;
     text-decoration: none;
 }
 
-a:active {
-    color: gray;
-    text-decoration: none;
-}
-
-.jumbotron {
-    border-radius: 0px;
+footer {
+    background-color:#1976D2
 }
 
 .footer-copyright {
-    padding: 10px 10px;
-    color:gray;
+    padding: 3em 0em 1.5em 0em;
+    color: #BBDEFB;
 }
 
 .footer-copyright a:link {
-    color: gray;
+    color: #BBDEFB;
     text-decoration: none;
 }
 
 .footer-copyright a:visited {
-    color: gray;
+    color: #BBDEFB;
     text-decoration: none;
 }
 
 .footer-copyright a:hover {
-    color: gray;
+    color: #fff;
     text-decoration: none;
 }
 
 .footer-copyright a:active {
-    color: gray;
+    color: #fff;
     text-decoration: none;
 }
 
-/* Container holding the image and the text */
 .container-box {
     position: relative;
     text-align: center;
     color: white;
 }
 
-/* Top left text */
 .top-left {
     font-weight: 700;
     
@@ -80,4 +122,107 @@ a:active {
 
 img {
  filter: blur(1px) grayscale(15%);
+}
+.signature-event {
+    width: 100%;
+    height: auto;
+    margin: 0 auto; 
+}
+
+.event-block {
+    padding-bottom: 1em;
+    padding-right: 0.5em;
+}
+
+.title-block {
+    padding-bottom: 2em;
+}
+
+.signature-section {
+    background-color: red;
+}
+
+.container-signature {
+    background-color: ghostwhite;
+    padding: 2em;
+}
+
+.title-block h2 {
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+.title-block p {
+    text-align: center;
+    letter-spacing: 1px;
+    color: gray;
+}
+
+.social-bar {
+    background-color:#BBDEFB
+}
+
+.title-page h2 {
+    text-align: left;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+.logo-center {
+    width: 20%;
+}
+
+.container-about {
+    padding: 2em 0em 2em 0em;
+}
+
+.executive-subtitle {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+.numbers h1 {
+    color:#1976D2; 
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 60px;      
+}
+
+.numbers p {
+    color:#2196F3; 
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-size: 18px;     
+}
+
+.numbers {
+    padding: 0em 3.5em;
+}
+
+.numbers-text h2 {
+    padding: 0.8em;
+    color:#111; 
+    font-weight: 700;
+    font-size: 45px;   
+}
+
+.event-name {
+    padding: 0.38em;
+    color:#111; 
+    font-weight: 700;
+    font-size: 45px;   
+}
+
+.executive-subtitle-muted {
+    text-transform: lowercase;
+    color: gray;
+    text-align: center;
+    font-weight: 200;
+    letter-spacing: 3px;
+    font-size: 14px;
 }
