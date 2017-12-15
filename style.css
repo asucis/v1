@@ -47,6 +47,16 @@ hr {
     height: 30%;
 }
 
+.event-bg {
+    position: relative;
+    opacity: 0.90;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("assets/Duy%20Nguyen%20-%202W3A2531.JPG");
+    height: 60%;
+}
+
 .navbar a.navbar-brand:hover {
     color: #00A3E0 !important;
     text-decoration: none;
