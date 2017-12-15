@@ -72,6 +72,26 @@ hr {
     text-decoration: none;
 }
 
+.executive-social a:link{
+    color: gray;
+    text-decoration: none;
+}
+
+.executive-social a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+.executive-social a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+.executive-social a:active {
+    color: gray;
+    text-decoration: none;
+}
+
 footer {
     background-color:#1976D2
 }
@@ -225,4 +245,29 @@ img {
     font-weight: 200;
     letter-spacing: 3px;
     font-size: 14px;
+}
+
+.picture-box {
+    padding: 0.35em;
+    color:#111; 
+    font-weight: 700;
+    font-size: 45px;  
+}
+
+.name-box h5 {
+    text-transform: uppercase;
+    padding-top: 0.38em;
+    color:#111;
+    font-weight: 700;
+    font-size: 28px;  
+    letter-spacing: 1.5px;
+}
+
+.nested-title {
+    text-transform: uppercase;
+    padding: 1em 0em 1em;
+    text-align: center;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-size: 23px;
 }
