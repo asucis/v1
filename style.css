@@ -6,15 +6,40 @@ html {
     margin: 0;
 }
 
+.navbar a.navbar-brand:hover {
+    color: #00A3E0 !important;
+    text-decoration: none;
+}
+
+.social a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.social a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.social a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.social a:active {
+    color: gray;
+    text-decoration: none;
+}
+
 .logo-hero {
     width: 100%;
 }
 
 hr {
-  max-width: 100px;
-  margin: auto;
-  border-width: 0.25em;
-  border-color: rgba(34, 34, 34, 0.1); 
+    max-width: 100px;
+    margin: auto;
+    border-width: 0.25em;
+    border-color: rgba(34, 34, 34, 0.1);
 }
 
 .hero-bg {
@@ -37,16 +62,6 @@ hr {
     height: 30%;
 }
 
-.executive-bg {
-    position: relative;
-    opacity: 0.90;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("assets/20170818_181450.jpg");
-    height: 30%;
-}
-
 .event-bg {
     position: relative;
     opacity: 0.90;
@@ -57,32 +72,27 @@ hr {
     height: 60%;
 }
 
-.navbar a.navbar-brand:hover {
-    color: #00A3E0 !important;
-    text-decoration: none;
+.executive-bg {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("assets/20170818_181450.jpg");
+    height: 30%;
 }
 
-.social a:link{
-    color: black;
-    text-decoration: none;
+.member-bg {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("assets/20170818_181450.jpg");
+    height: 30%;
 }
 
-.social a:visited {
-    color: black;
-    text-decoration: none;
-}
-
-.social a:hover {
-    color: white;
-    text-decoration: none;
-}
-
-.social a:active {
-    color: gray;
-    text-decoration: none;
-}
-
-.executive-social a:link{
+.executive-social a:link {
     color: gray;
     text-decoration: none;
 }
@@ -103,60 +113,38 @@ hr {
 }
 
 footer {
-    background-color:#1976D2
+    background-color: #1976D2
 }
 
-.footer-copyright {
+.footer-text {
     padding: 3em 0em 1.5em 0em;
     color: #BBDEFB;
 }
 
-.footer-copyright a:link {
+.footer-text a:link {
     color: #BBDEFB;
     text-decoration: none;
 }
 
-.footer-copyright a:visited {
+.footer-text a:visited {
     color: #BBDEFB;
     text-decoration: none;
 }
 
-.footer-copyright a:hover {
+.footer-text a:hover {
     color: #fff;
     text-decoration: none;
 }
 
-.footer-copyright a:active {
+.footer-text a:active {
     color: #fff;
     text-decoration: none;
 }
 
-.container-box {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.top-left {
-    font-weight: 700;
-    
-    position: absolute;
-    top: 8px;
-    left: 16px;
-    color: black;
-}
-
-.top-left h1 {
-    font-size: 4em !important;
-}
-
-img {
- filter: blur(1px) grayscale(15%);
-}
 .signature-event {
     width: 100%;
     height: auto;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 .event-block {
@@ -191,7 +179,7 @@ img {
 }
 
 .social-bar {
-    background-color:#BBDEFB
+    background-color: #BBDEFB
 }
 
 .title-page h2 {
@@ -200,6 +188,7 @@ img {
     letter-spacing: 2px;
     font-size: 50px;
 }
+
 .logo-center {
     width: 20%;
 }
@@ -217,35 +206,52 @@ img {
 }
 
 .numbers h1 {
-    color:#1976D2; 
+    color: #1976D2;
     font-weight: 700;
     letter-spacing: 2px;
-    font-size: 60px;      
-}
-
-.numbers p {
-    color:#2196F3; 
-    font-weight: 200;
-    letter-spacing: 2px;
-    font-size: 18px;     
+    font-size: 60px;
 }
 
 .numbers {
     padding: 0em 3.5em;
 }
 
+.numbers p {
+    color: #2196F3;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
 .numbers-text h2 {
     padding: 0.8em;
-    color:#111; 
+    color: #111;
     font-weight: 700;
-    font-size: 45px;   
+    font-size: 45px;
+}
+
+.in-numbers {
+    padding: 0em 1.3em;
+}
+
+.in-numbers p {
+    color: #2196F3;
+    font-weight: 200;
+    letter-spacing: 1.8px;
+    font-size: 18px;
+}
+
+.in-numbers h1 {
+    color: #1976D2;
+    font-weight: 700;
+    font-size: 45px;
 }
 
 .event-name {
     padding: 0.38em;
-    color:#111; 
+    color: #111;
     font-weight: 700;
-    font-size: 45px;   
+    font-size: 45px;
 }
 
 .executive-subtitle-muted {
@@ -259,25 +265,106 @@ img {
 
 .picture-box {
     padding: 0.35em;
-    color:#111; 
+    color: #111;
     font-weight: 700;
-    font-size: 45px;  
+    font-size: 45px;
 }
 
 .name-box h5 {
     text-transform: uppercase;
     padding-top: 0.38em;
-    color:#111;
+    color: #111;
     font-weight: 700;
-    font-size: 28px;  
+    font-size: 28px;
     letter-spacing: 1.5px;
 }
 
-.nested-title {
+.event-title {
+    padding: 0em;
+}
+
+.event-title p {
     text-transform: uppercase;
-    padding: 1em 0em 1em;
     text-align: center;
     font-weight: 200;
     letter-spacing: 2px;
     font-size: 23px;
+}
+
+.nested-title {
+    padding: 2em 0em 0em;
+}
+
+.nested-title p {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-size: 23px;
+}
+
+.event-carousel {
+    padding: 0em 0em 2em;
+}
+
+.container-even {
+    padding: 2em 0em 2em 0em;
+}
+
+.container-odd {
+    padding: 2em 0em 2em 0em;
+    background-color: #fafafa;
+}
+.event-text {
+    padding: 1em 2em 1em;
+}
+
+.event-text img {
+    padding: 0em 0em 2em;
+}
+
+.event-text p {
+    color: #212121;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.cc-event img {
+    padding: 0em 2em 0em;
+    width: 50%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container-contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
