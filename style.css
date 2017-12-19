@@ -58,18 +58,18 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("assets/Duy%20Nguyen%20-%202W3A2227.JPG");
-    height: 30%;
+    background-image: url("assets/cis-glo-ball-night-0007.jpg");
+    height: 50%;
 }
 
 .event-bg {
     position: relative;
     opacity: 0.90;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("assets/Duy%20Nguyen%20-%202W3A2531.JPG");
-    height: 60%;
+    background-image: url("assets/cis-international-night-0010.JPG");
+    height: 50%;
 }
 
 .executive-bg {
@@ -78,7 +78,7 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("assets/20170818_181450.jpg");
+    background-image: url("assets/temps.PNG");
     height: 30%;
 }
 
@@ -88,7 +88,7 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("assets/20170818_181450.jpg");
+    background-image: url("assets/cis-glo-ball-night-0008.JPG");
     height: 30%;
 }
 
@@ -315,6 +315,7 @@ footer {
     padding: 2em 0em 2em 0em;
     background-color: #fafafa;
 }
+
 .event-text {
     padding: 1em 2em 1em;
 }
@@ -331,23 +332,34 @@ footer {
 }
 
 .cc-event img {
-    padding: 0em 2em 0em;
-    width: 50%;
+    padding: 0em 0em 0em;
+    width: 100%;
 }
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
+
 input[type=submit] {
     background-color: #4CAF50;
     color: white;
@@ -358,13 +370,137 @@ input[type=submit] {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
+
 input[type=submit]:hover {
     background-color: #45a049;
 }
 
 /* Add a background color and some padding around the form */
+
 .container-contact {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+}
+
+header.abouthead {
+    position: relative;
+    background-color: #343a40;
+    background: url("assets/cis-glo-ball-night-0007.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.eventshead {
+    position: relative;
+    background-color: #343a40;
+    background: url("assets/cis-international-night-0010.JPG") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.executivehead {
+    position: relative;
+    background-color: #343a40;
+    background: url("assets/temps.PNG") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.memberhead {
+    position: relative;
+    background-color: #343a40;
+    background: url("assets/cis-glo-ball-night-0008.JPG") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.contacthead {
+    position: relative;
+    background-color: #343a40;
+    background: url("assets/cc.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.abouthead .overlay,
+header.eventshead .overlay,
+header.executivehead .overlay,
+header.memberhead .overlay, 
+header.contacthead .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.85;
+    background: #667db6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header.abouthead h1,
+header.eventshead h1,
+header.executivehead h1,
+header.memberhead h1, 
+header.contacthead h1 {
+    text-align: left;
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 2em;
+}
+
+header.abouthead h1 span,
+header.eventshead h1 span,
+header.executivehead h1 span,
+header.memberhead h1 span, 
+header.contacthead h1 span {
+    background-color: #BDBDBD;
+    color: #fff;
+    display: inline;
+    padding: 0.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+@media (min-width: 768px) {
+    header.abouthead,
+    header.eventshead,
+    header.executivehead,
+    header.memberhead, 
+    header.contacthead {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+    header.abouthead h1,
+    header.eventshead h1,
+    header.executivehead h1,
+    header.memberhead h1, 
+    header.contacthead h1 {
+        font-size: 3rem;
+    }
 }
