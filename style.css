@@ -43,53 +43,16 @@ hr {
 }
 
 .hero-bg {
-    position: relative;
     opacity: 0.75;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("assets/Duy%20Nguyen%20-%202W3A2805.JPG");
-    height: 80%;
-}
-
-.about-bg {
     position: relative;
-    opacity: 0.90;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #343a40;
+    background: url("assets/cis-international-night-0011.JPG") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-image: url("assets/cis-glo-ball-night-0007.jpg");
-    height: 50%;
-}
-
-.event-bg {
-    position: relative;
-    opacity: 0.90;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("assets/cis-international-night-0010.JPG");
-    height: 50%;
-}
-
-.executive-bg {
-    position: relative;
-    opacity: 0.90;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("assets/temps.PNG");
-    height: 30%;
-}
-
-.member-bg {
-    position: relative;
-    opacity: 0.90;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("assets/cis-glo-ball-night-0008.JPG");
-    height: 30%;
+    padding-top: 16rem;
+    padding-bottom: 16rem;
 }
 
 .executive-social a:link {
@@ -113,7 +76,7 @@ hr {
 }
 
 footer {
-    background-color: #1976D2
+    background-color: #2196F3;
 }
 
 .footer-text {
@@ -292,7 +255,7 @@ footer {
 }
 
 .nested-title {
-    padding: 2em 0em 0em;
+    padding: 0em 0em 1em;
 }
 
 .nested-title p {
@@ -300,12 +263,10 @@ footer {
     text-align: center;
     font-weight: 200;
     letter-spacing: 2px;
-    font-size: 23px;
+    font-size: 28px;
 }
 
-.event-carousel {
-    padding: 0em 0em 2em;
-}
+
 
 .container-even {
     padding: 2em 0em 2em 0em;
@@ -378,9 +339,7 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 
 .container-contact {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+    height: 1200px;
 }
 
 header.abouthead {
@@ -479,12 +438,24 @@ header.eventshead h1 span,
 header.executivehead h1 span,
 header.memberhead h1 span, 
 header.contacthead h1 span {
-    background-color: #BDBDBD;
-    color: #fff;
+    background-color: #1976D2;
+    color: #BBDEFB;
     display: inline;
     padding: 0.5rem;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
+}
+
+header.abouthead hr,
+header.eventshead hr,
+header.executivehead hr,
+header.memberhead hr, 
+header.contacthead hr {
+    max-width: 800px;
+    margin-left: 0;
+    max-width: 100px;
+    border-width: 0.5em;
+    border-color: #FF5722;
 }
 
 @media (min-width: 768px) {
@@ -503,4 +474,115 @@ header.contacthead h1 span {
     header.contacthead h1 {
         font-size: 3rem;
     }
+}
+
+#wechat {
+    background-color:forestgreen;
+}
+
+#qr {
+    margin: 5% 25% 1%;
+    width: 40%;
+    border: 3px solid #7bb32e;
+    padding: 10px;
+    max-width: 600px;
+}
+
+.partner-table a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.partner-table a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.partner-table a:hover {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.partner-table a:active {
+    color: darkblue;
+    text-decoration: none;
+}
+
+
+.hero-bg h1 {
+    text-align: left;
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 2em;
+}
+
+hero-bg h1 span {
+    background-color: #1976D2;
+    color: #BBDEFB;
+    display: inline;
+    padding: 0.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+.footer-social {
+    padding: 2em;
+    text-align: center;
+}
+
+.footer-social a {
+    padding: 0.2em;
+}
+
+.footer-social a:link {
+    color: #BBDEFB;
+    text-decoration: none;
+}
+
+.footer-social a:visited {
+    color: #BBDEFB;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-copyright {
+    padding: 0.5em;
+    text-align: center;
+    background-color: #1976D2;
+}
+
+.copyright-text {
+    font-size: 0.8em;
+    padding: 0em !important;
+    font-weight: 200;
+    color: #BBDEFB;
+}
+
+.copyright-text a:link {
+    color: #BBDEFB;
+    text-decoration: none;
+}
+
+.copyright-text a:visited {
+    color: #BBDEFB;
+    text-decoration: none;
+}
+
+.copyright-text a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyright-text a:active {
+    color: #fff;
+    text-decoration: none;
 }
