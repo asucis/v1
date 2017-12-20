@@ -403,11 +403,24 @@ header.contacthead {
     padding-bottom: 8rem;
 }
 
+header.opthead {
+    position: relative;
+    background-color: #343a40;
+    background: url("assets/grad.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
 header.abouthead .overlay,
 header.eventshead .overlay,
 header.executivehead .overlay,
 header.memberhead .overlay, 
-header.contacthead .overlay {
+header.contacthead .overlay,
+header.opthead .overlay {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -426,7 +439,8 @@ header.abouthead h1,
 header.eventshead h1,
 header.executivehead h1,
 header.memberhead h1, 
-header.contacthead h1 {
+header.contacthead h1,
+header.opthead h1 {
     text-align: left;
     font-size: 3em;
     font-weight: 700;
@@ -438,7 +452,8 @@ header.abouthead h1 span,
 header.eventshead h1 span,
 header.executivehead h1 span,
 header.memberhead h1 span, 
-header.contacthead h1 span {
+header.contacthead h1 span,
+header.opthead h1 span {
     background-color: #BBDEFB;
     color: #2196F3;
     display: inline;
@@ -451,7 +466,8 @@ header.abouthead hr,
 header.eventshead hr,
 header.executivehead hr,
 header.memberhead hr, 
-header.contacthead hr {
+header.contacthead hr,
+header.opthead hr {
     max-width: 800px;
     margin-left: 0;
     max-width: 100px;
@@ -464,7 +480,8 @@ header.contacthead hr {
     header.eventshead,
     header.executivehead,
     header.memberhead, 
-    header.contacthead {
+    header.contacthead,
+    header.opthead {
         padding-top: 8rem;
         padding-bottom: 8rem;
     }
@@ -472,7 +489,8 @@ header.contacthead hr {
     header.eventshead h1,
     header.executivehead h1,
     header.memberhead h1, 
-    header.contacthead h1 {
+    header.contacthead h1,
+    header.opthead h1 {
         font-size: 3rem;
     }
 }
@@ -622,4 +640,18 @@ hero-bg h1 span {
 
 .portrait {
     width: 100%; 
+}
+.opt-form {
+    height: 600px;
+    padding: 
+}
+
+.form-title {
+    font-weight: 400;
+    font-size: 22px;
+    margin: 0.8em 0em 0em;
+}
+
+.opt-card {
+    padding: 0em 1em 1em;
 }
