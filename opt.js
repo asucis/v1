@@ -21,7 +21,7 @@ $(function () {
 });
 $(function () {
     $("#startDatePicker").datepicker({
-        numberOfMonths: 3,
+        numberOfMonths: 1,
         onSelect: function () {
             var submitDate = $("#startDatePicker").datepicker("getDate");
             submitDate.setDate(submitDate.getDate() - 90);
@@ -59,6 +59,7 @@ $(function () {
             $("#submitDate11").text(monthNamesFull[submitDate.getMonth()] + " " + submitDate.getDate() + ", " + submitDate.getFullYear());
         }
     });
+    $('#slider .ui-slider-handle').text('Slide').css({width:70,'text-align': 'center'});
 });
 
 function openCity(evt, cityName) {

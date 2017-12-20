@@ -642,8 +642,7 @@ hero-bg h1 span {
     width: 100%; 
 }
 .opt-form {
-    height: 600px;
-    padding: 
+    min-height: 600px;
 }
 
 .form-title {
@@ -656,14 +655,7 @@ hero-bg h1 span {
     padding: 0em 1em 1em;
 }
 
-#custom-handle {
-    width: 5em;
-    height: 1.6em;
-    top: 50%;
-    margin-top: -.8em;
-    text-align: center;
-    line-height: 1.6em;
-}
+
 
 #contents {
     margin-left: 1%;
@@ -679,11 +671,6 @@ hero-bg h1 span {
 .disabledbutton {
     pointer-events: none;
     opacity: 0.4;
-}
-
-table {
-    width: 100%;
-    text-align: center;
 }
 
 #accountForm {
@@ -712,4 +699,74 @@ table {
 
 .tab button.active {
     background-color: #ccc;
+}
+
+.tabcontent {
+    height: 500px;;
+}
+
+#slider {
+    color: blue;
+    background-color: skyblue;
+    margin
+}
+
+.slider {
+    padding: 1em 5.5em 1em 5.5em;
+}
+
+.grad-date {
+    font-size: 15px;
+    text-align: center;
+    height: 20px;
+    width: 100px;
+}
+.left-box {
+    font-size: 15px;
+    padding: 2em 0em 0em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.left-box p {
+    padding: 0em;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+
+.right-box {
+    font-size: 15px;
+    padding: 2em 0em 0em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.right-box p {
+    padding: 0em;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+
+.opt-credits {
+    padding: 1em 0em 0em;
+    text-align: center;
+    font-weight: 100;
+}
+
+.opt-credits i.fa-exclamation-circle {
+    color: red;
+    background-color:red;
+}
+
+.fine-print {
+    font-size: 10px;
+    margin: 0em;
+    color: #BDBDBD;
+}
+
+.end-button {
+    margin: 1em 0em 0em;
+    float: right
 }
