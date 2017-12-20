@@ -655,3 +655,61 @@ hero-bg h1 span {
 .opt-card {
     padding: 0em 1em 1em;
 }
+
+#custom-handle {
+    width: 5em;
+    height: 1.6em;
+    top: 50%;
+    margin-top: -.8em;
+    text-align: center;
+    line-height: 1.6em;
+}
+
+#contents {
+    margin-left: 1%;
+    margin-right: 1%;
+    overflow: hidden;
+}
+
+#tabs {
+    height: 20em;
+    overflow: hidden;
+}
+
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+#accountForm {
+    margin-top: 15px;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
