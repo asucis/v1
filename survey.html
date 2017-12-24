@@ -12,19 +12,11 @@
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    
-    <!-- JQuery UI CSS -->
-    <link rel="stylesheet" href="jqui/jquery-ui.min.css">
-    <script src="jqui/external/jquery/jquery.js"></script>
-    <script src="jqui/jquery-ui.min.js"></script>
-    
+
     <!-- Custom Styles -->
-    <link href="style.css" rel="stylesheet">
+    <link href="scripts/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
     <script src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
-    
-    <!-- OPT Calculator -->
-    <script src="opt.js"></script>
     
     <!-- Google Analytics -->
     <script>
@@ -42,35 +34,33 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a class="navbar-brand" href="index.html">ASU<b style="color: #00A3E0">CIS</b></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="events.html">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="executive.html">Executives</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="member.html">Members</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="about.html">About CIS</a>
+                            <a class="dropdown-item" href="events.html">Events</a>
+                            <a class="dropdown-item" href="executive.html">Executives</a>
+                            <a class="dropdown-item" href="member.html">Members</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="opt.html">OPT Calculator</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://blog.asucis.com/">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     
-    <header class="contacthead">
+    <header class="surveyhead">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -86,7 +76,46 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 nested-title">
-                    <p>Email</p>
+                    <p>Survey</p>
+                </div>
+                <div class="col-md-12">
+                    <p>The Coalition of International Students invites all current international students at Arizona State University to participate in the International Student Survey which will help improve the services offered to incoming international students to the university. We value your truthful response to the questions.</p>
+                </div>
+            </div>  
+        </div>
+    </div>
+    
+    <div class="container-odd">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 nested-title">
+                    <p>Frequently Asked Questions</p>
+                </div>
+                <div class="col-md-12 faq-text">
+                    <h5>What is the International Student Survey</h5>
+                    <p>The International Student Survey is a audit that assess the conditions and services being offered to international students at Arizona State University</p>
+                    <hr class="faq">
+                    <h5>What will be the survey results be used for?</h5>
+                    <p>The data collected in this survey will be analyzed confidentially and anonymously. And on the basis on the results, we can work with university administration to alter or add upon the services ASU currently offers to international students. </p>
+                    <hr class="faq">
+                    <h5>What are you giving away</h5>
+                    <p>8 Demi Lovato concert tickets</p>
+                    <hr class="faq">
+                    <h5>How do I enter?</h5>
+                    <p>Simple, just complete the 10 minute survey above and make sure to fill out you asu.edu email before submitting</p>
+                    <hr class="faq">
+                    <h5>Is the giveaway open worldwide?</h5>
+                    <p>Unfortunately, this giveaway is only open to current ASU students whether you are an international student or not does not matter</p>
+                    <hr class="faq">
+                    <h5>How are winners selected?</h5>
+                    <p>Randomly from the pool of eligable email ids</p>
+                    <hr class="faq">
+                    <h5>How do entrants know that the winner selection is truly random</h5>
+                    <p>We're using a custom Python script which was specifically programmed for this giveaways. It generates a random seed based on the NumPy project. The random pick is the resulting winner. This is using the normal distribution which ensures that everybody has an equal chance of winning for each random draw</p>
+                    <hr class="faq">
+                    <h5>When are you drawing the winners?</h5>
+                    <p>All 8 winners will be drawn on 01 March 2018 which is</p>
+                    <p id="countdown"></p>
                 </div>
             </div>  
         </div>
@@ -112,6 +141,24 @@
             </div>
         </div>
     </footer>
+    
+    <script>
+        var countDownDate = new Date("Feb 28, 2018 23:59:59").getTime();
+        var x = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            document.getElementById("countdown").innerHTML = days + "d " + hours + "h " +
+                minutes + "m " + seconds + "s ";
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("countdown").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
     
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

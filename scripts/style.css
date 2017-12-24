@@ -47,7 +47,7 @@ hr {
     opacity: 0.75;
     position: relative;
     background-color: #343a40;
-    background: url("assets/cis-international-night-0011.JPG") no-repeat center center;
+    background: url("../assets/cis-international-night-0011.JPG") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -346,7 +346,7 @@ input[type=submit]:hover {
 header.abouthead {
     position: relative;
     background-color: #343a40;
-    background: url("assets/cis-glo-ball-night-0007.jpg") no-repeat center center;
+    background: url("../assets/cis-glo-ball-night-0007.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -358,7 +358,7 @@ header.abouthead {
 header.eventshead {
     position: relative;
     background-color: #343a40;
-    background: url("assets/cis-international-night-0010.JPG") no-repeat center center;
+    background: url("../assets/cis-international-night-0010.JPG") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -370,7 +370,7 @@ header.eventshead {
 header.executivehead {
     position: relative;
     background-color: #343a40;
-    background: url("assets/temps.PNG") no-repeat center center;
+    background: url("../assets/temps.PNG") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -382,7 +382,7 @@ header.executivehead {
 header.memberhead {
     position: relative;
     background-color: #343a40;
-    background: url("assets/cis-glo-ball-night-0008.JPG") no-repeat center center;
+    background: url("../assets/cis-glo-ball-night-0008.JPG") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -394,7 +394,7 @@ header.memberhead {
 header.contacthead {
     position: relative;
     background-color: #343a40;
-    background: url("assets/sun-devil-map.jpeg") no-repeat center center;
+    background: url("../assets/sun-devil-map.jpeg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -406,7 +406,19 @@ header.contacthead {
 header.opthead {
     position: relative;
     background-color: #343a40;
-    background: url("assets/grad.jpg") no-repeat center center;
+    background: url("../assets/grad.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.surveyhead {
+    position: relative;
+    background-color: #343a40;
+    background: url("../assets/low-poly.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -420,7 +432,8 @@ header.eventshead .overlay,
 header.executivehead .overlay,
 header.memberhead .overlay, 
 header.contacthead .overlay,
-header.opthead .overlay {
+header.opthead .overlay,
+header.surveyhead .overlay {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -440,7 +453,8 @@ header.eventshead h1,
 header.executivehead h1,
 header.memberhead h1, 
 header.contacthead h1,
-header.opthead h1 {
+header.opthead h1,
+header.surveyhead h1 {
     text-align: left;
     font-size: 3em;
     font-weight: 700;
@@ -453,7 +467,8 @@ header.eventshead h1 span,
 header.executivehead h1 span,
 header.memberhead h1 span, 
 header.contacthead h1 span,
-header.opthead h1 span {
+header.opthead h1 span,
+header.surveyhead h1 span {
     background-color: #BBDEFB;
     color: #2196F3;
     display: inline;
@@ -467,7 +482,8 @@ header.eventshead hr,
 header.executivehead hr,
 header.memberhead hr, 
 header.contacthead hr,
-header.opthead hr {
+header.opthead hr,
+header.surveyhead hr{
     max-width: 800px;
     margin-left: 0;
     max-width: 100px;
@@ -481,7 +497,8 @@ header.opthead hr {
     header.executivehead,
     header.memberhead, 
     header.contacthead,
-    header.opthead {
+    header.opthead,
+    header.surveyhead {
         padding-top: 8rem;
         padding-bottom: 8rem;
     }
@@ -490,7 +507,8 @@ header.opthead hr {
     header.executivehead h1,
     header.memberhead h1, 
     header.contacthead h1,
-    header.opthead h1 {
+    header.opthead h1, 
+    header.surveyhead h1 {
         font-size: 3rem;
     }
 }
@@ -786,7 +804,7 @@ hero-bg h1 span {
 .banner {
     padding: 20px;
     color: #f8f8f8;
-    background: url(assets/material.png) no-repeat center center;
+    background: url(../assets/material.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -804,4 +822,23 @@ hero-bg h1 span {
 .banner-social-buttons {
     float: right;
     margin-top: 0;
+}
+.alert-padding {
+    margin: 0em;
+}
+
+.faq {
+    max-width: 100%;
+    border-width: 0.1em;
+    border-color: #BDBDBD;
+    padding: 0em 0em 1em;
+}
+
+.faq-text h5 {
+    font-weight: 400;
+}
+
+.faq-text p {
+    margin-left: 40px;
+    font-weight: 100;
 }
