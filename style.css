@@ -641,6 +641,18 @@ hero-bg h1 span {
 .portrait {
     width: 100%; 
 }
+
+@media only screen and (max-width: 768px) {
+    .portrait {
+        display: block;
+        margin: 0 auto;
+        width: 50%; 
+    }
+    .executive-social {
+        text-align: center;
+    }
+}
+
 .opt-form {
     min-height: 600px;
 }
@@ -769,4 +781,27 @@ hero-bg h1 span {
 .end-button {
     margin: 1em 0em 0em;
     float: right
+}
+
+.banner {
+    padding: 20px;
+    color: #f8f8f8;
+    background: url(assets/material.png) no-repeat center center;
+    background-size: cover;
+}
+
+.banner .col-md-8 {
+    padding: 0.5em 0em 0.5em;
+}
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 2em;
+}
+.banner ul {
+    margin-bottom: 0;
+}
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
 }
