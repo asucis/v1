@@ -370,7 +370,7 @@ header.eventshead {
 header.executivehead {
     position: relative;
     background-color: #343a40;
-    background: url("../assets/temps.PNG") no-repeat center center;
+    background: url("../assets/cis-glo-ball-night-0008.JPG") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -841,4 +841,17 @@ hero-bg h1 span {
 .faq-text p {
     margin-left: 40px;
     font-weight: 100;
+}
+
+.nav-item p {
+    padding: 0em;
+    margin: 0em;
+}
+
+@media only screen and (max-width: 991px)  {
+    .nav-item p {
+        padding: 0em;
+        margin: 0em;
+        text-transform: capitalize;
+    }
 }
