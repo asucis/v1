@@ -68,18 +68,6 @@
         </div>
     </nav>
     
-    <header class="surveyhead">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1><span>Survey</span></h1>
-                    <hr>
-                </div>
-            </div>
-        </div>
-    </header>
-    
     <div class="container-even">
         <div class="container">
             <div class="row">
@@ -90,7 +78,7 @@
                     <p>The CIS International Student Survey is our effort to making the international student exeprience at ASU even better. It's not only about ASU - it's about you and what resources are most important to you as an international students. However, if you do have suggestions to improve the international experience at ASU, please submit them through our feedback form <a href="contact.html" target="_blank">here</a>.</p>
                     <p>Need more resources as an international student at ASU? Got an idea for improving the experience for international students? Or perhaps you're simply happy with the current experience. Now is the time to let ASU know.</p>
                     <p>The survey only takes 5-10 minutes to complete. But the input your provide will help shape the experience for international students for the next academic year - and beyond.</p>
-                    <p>You could win Demi Lovato concert tickets. Simply complete and submit the survey by March 3, 2018 and include your ASU email (.asu.edu) and you'll be automatically entered into a drawing to win Demi Lovato concert tickets. Further details of the drawing can be found on the bottom of the page.*<a href="survey-workaround.html"> he</a></p>
+                    <p>You could win Demi Lovato concert tickets. Simply complete and submit the survey by March 3, 2018 and include your ASU email (.asu.edu) and you'll be automatically entered into a drawing to win Demi Lovato concert tickets. Further details of the drawing can be found on the bottom of the page.*</p>
                 </div>
                 <div class="col-md-12">
                     <div class="container-contact">
@@ -99,85 +87,12 @@
                         </div>
                     </div>
                 </div>
-                
-            </div>  
-        </div>
-    </div>
-    
-    <div class="container-odd">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 nested-title">
-                    <p>Frequently Asked Questions</p>
-                </div>
-                <div class="col-md-12 faq-text">
-                    <h5>What is the International Student Survey</h5>
-                    <p>The International Student Survey is a audit that assess the conditions and services being offered to international students at Arizona State University</p>
-                    <hr class="faq">
-                    <h5>What will be the survey results be used for?</h5>
-                    <p>The data collected in this survey will be analyzed confidentially and anonymously. And on the basis on the results, we can work with university administration to alter or add upon the services ASU currently offers to international students. </p>
-                    <hr class="faq">
-                    <h5>What are you giving away</h5>
-                    <p>8 Demi Lovato concert tickets</p>
-                    <hr class="faq">
-                    <h5>How do I enter?</h5>
-                    <p>Simple, just complete the 10 minute survey above and make sure to fill out you asu.edu email before submitting</p>
-                    <hr class="faq">
-                    <h5>Is the giveaway open worldwide?</h5>
-                    <p>Unfortunately, this giveaway is only open to current ASU students whether you are an international student or not does not matter</p>
-                    <hr class="faq">
-                    <h5>How are winners selected?</h5>
-                    <p>Randomly from the pool of eligable email ids</p>
-                    <hr class="faq">
-                    <h5>How do entrants know that the winner selection is truly random</h5>
-                    <p>We're using a custom Python script which was specifically programmed for this giveaways. It generates a random seed based on the NumPy project. The random pick is the resulting winner. This is using the normal distribution which ensures that everybody has an equal chance of winning for each random draw</p>
-                    <hr class="faq">
-                    <h5>When are you drawing the winners?</h5>
-                    <p>All 8 winners will be drawn on 25 February 2018 which is in</p>
-                    <p id="countdown"></p>
-                </div>
-            </div>  
-        </div>
-    </div>
-    
-    <footer>
-        <div class="container">
-            <div class="row">
                 <div class="col-md-12">
-                    <div class="footer-social">
-                        <a target="_blank" href="https://www.facebook.com/ASUCIS/"><i class="fab fa-facebook fa-2x white-text mr-md-4"> </i></a>
-                        <a target="_blank" href="https://www.instagram.com/asucis/"><i class="fab fa-instagram fa-2x white-text mr-md-4"> </i></a>
-                        <a target="_blank" href="https://twitter.com/asu_cis"><i class="fab fa-twitter fa-2x white-text mr-md-4"> </i></a>
-                        <a target="_blank" href="https://www.snapchat.com/add/asucis"><i class="fab fa-snapchat fa-2x white-text mr-md-4"> </i></a>
-                        <a target="_blank" href="scripts/weixin.html"><i class="fab fa-weixin fa-2x white-text mr-md-4"> </i></a>
-                    </div>
+                    <a href="survey.html"><button type="button" class="btn btn-primary btn-lg btn-block">Head back to our website</button></a>
                 </div>
-            </div>
+            </div>  
         </div>
-        <div class="footer-copyright">
-            <div class="copyright-text">
-                &copy; 2018 ASU CIS. design by <a href="https://www.dickwyn.xyz/"> dickwyn</a>
-            </div>
-        </div>
-    </footer>
-    
-    <script>
-        var countDownDate = new Date("February 25, 2018 23:59:59").getTime();
-        var x = setInterval(function() {
-            var now = new Date().getTime();
-            var distance = countDownDate - now;
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-            document.getElementById("countdown").innerHTML = days + "d " + hours + "h " +
-                minutes + "m " + seconds + "s ";
-            if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("countdown").innerHTML = "EXPIRED";
-            }
-        }, 1000);
-    </script>
+    </div>
     
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
